@@ -6,9 +6,9 @@ public class Coins {
 public static void main(String[] args) {
 	// a is the given string argument, we will convert it to int
 	int a = Integer.parseInt(args[0]);
-	//The cents are equal to the the result of the modolu because they are the numbers after the dot
+	//The numbers after the dot represents the cents 
 	int cents = a % 25;
-	//The quarters are equal to the the result of the division because they are the numbers before the dot
+	//The numbers before the dot represents the quarters
 	int quarters = a / 25;
 	System.out.println("Use " + quarters + " quarters and " + cents + " cents");
 	}
