@@ -3,7 +3,7 @@
  * The program prints how to represent this quantity using as many quarters as possible, plus the remainder in cents.
  */
 public class Coins {
-	public static void main(String[] args) {
+public static void main(String[] args) {
 	// a is the given string argument, we will convert it to int
 	int a = Integer.parseInt(args[0]);
 	//The cents are equal to the the result of the modolu because they are the numbers after the dot
