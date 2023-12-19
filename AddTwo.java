@@ -3,6 +3,10 @@
  */
 public class AddTwo {
 	public static void main(String[] args) {
-		// Put your code here	
+	//turning a and b to int from string
+	int a = Integer.parseInt(args[0]);
+	int b = Integer.parseInt(args[1]);
+	//printing the sum
+	System.out.println(a + " + " + b + " = " + (a + b));	
 	}
 }
