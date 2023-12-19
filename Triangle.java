@@ -9,11 +9,11 @@ public static void main(String[] args) {
 	int a = Integer.parseInt(args[0]);
 	int b = Integer.parseInt(args[1]);
 	int c = Integer.parseInt(args[2]);
-	//We need all 3 mathematical claims to be true for the system to print that it is a possible trriangle. Otherwise, it is not a triangle.
+	//We need all 3 mathematical claims to be true to get a possible triangle
 	if (a + b > c & b + c > a & a + c > b) {
-		System.out.println(a + ", " + b + ", " + c + ": true");
+		System.out.println(a + "," + b + "," + c + ": true");
 	}   else {
 		System.out.println(a + ", " + b + ", " + c + ": false");
-	}		
+	}
 	}
 }
