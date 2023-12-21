@@ -20,7 +20,7 @@ public class GenThree {
 		
 	//comparing between the first number and the second one to get the min 
 	int min1 = ((int)Math.min(rand1, rand2));
-	//Getting the minimum value that was generated (as an integer)
+	//Getting the minimum value that was generated (as an integer) by finding the minimum between the last result and the third number
 	int min2 = ((int)Math.min(min1, rand3));
 		
 	//Printing the minimal generated number
