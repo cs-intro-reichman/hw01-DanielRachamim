@@ -9,9 +9,9 @@ public class GenThree {
 	int maxRange = Integer.parseInt(args[1]);
 		
 	//generating the numbers in the given range
-	double rand1 = Math.random()*(maxRange-minRange+1)+minRange;
-	double rand2 = Math.random()*(maxRange-minRange+1)+minRange;
-	double rand3 = Math.random()*(maxRange-minRange+1)+minRange;
+	double rand1 = Math.random()*(maxRange-minRange)+minRange;
+	double rand2 = Math.random()*(maxRange-minRange)+minRange;
+	double rand3 = Math.random()*(maxRange-minRange)+minRange;
 		
 	//printing each number as an integer
 	System.out.println((int)rand1);
